@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_text">Hello! Welcome to Four in a Row! Please enter your name and click on the next button to begin</string>
+    <string name="enter_name">Please enter name</string>
+    <string name="button_text">Next</string>
+</resources>

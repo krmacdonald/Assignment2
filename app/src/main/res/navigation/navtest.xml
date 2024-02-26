@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navtest"
+    app:startDestination="@id/splashscreenFragment">
+
+    <fragment
+        android:id="@+id/splashscreenFragment"
+        android:name="com.hfad.assignment2.FourinarowFragment"
+        android:label="splashscreenFragment"
+        tools:layout="@layout/fragment_splashscreen">
+        <action
+            android:id="@+id/action_fourinarowFragment_to_playboard"
+            app:destination="@id/playboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playboardFragment"
+        android:name="com.hfad.assignment2.Playboard"
+        android:label="fragment_playboard"
+        tools:layout="@layout/fragment_playboard" />
+</navigation>
