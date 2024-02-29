@@ -5,4 +5,6 @@
     <string name="welcome_text">Hello! Welcome to Four in a Row! Please enter your name and click on the next button to begin</string>
     <string name="enter_name">Please enter name</string>
     <string name="button_text">Next</string>
+    <string name="turn">It is currently your turn!</string>
+    <string name="clear">Clear</string>
 </resources>
